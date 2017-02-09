@@ -1,0 +1,11 @@
+wp-config.php
+wp-content/uploads/
+/.htaccess
+/wp-content/plugins/wordfence/
+/wp-content/wflogs/
+/wp-content/w3tc-config/
+/wp-content/cache/
+/wp-content/ai1wm-backups/
+/wp-content/updraft/
+/wp-content/upgrade/
+

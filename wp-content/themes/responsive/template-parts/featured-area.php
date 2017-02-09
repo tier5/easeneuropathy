@@ -23,8 +23,9 @@ $emtpy_cta = ( empty( $responsive_options['cta_text'] ) ) ? false : true;
 			if( isset( $responsive_options['home_headline'] ) && $db && $empty )
 				echo $responsive_options['home_headline'];
 			else {
+				echo "";
 				//_e( 'Hello, World!', 'responsive' );
-				echo "";	
+					
 			}
 			?>
 		</h1>
@@ -34,8 +35,9 @@ $emtpy_cta = ( empty( $responsive_options['cta_text'] ) ) ? false : true;
 			if( isset( $responsive_options['home_subheadline'] ) && $db && $empty )
 				echo $responsive_options['home_subheadline'];
 			else
-				//_e( 'Your H2 subheadline here', 'responsive' );
 				echo "";
+				//_e( 'Your H2 subheadline here', 'responsive' );
+				
 			?>
 		</h2>
 
