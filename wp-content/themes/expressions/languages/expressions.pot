@@ -1,0 +1,1465 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Expressions\n"
+"POT-Creation-Date: 2013-07-09 20:32-0700\n"
+"PO-Revision-Date: 2013-07-09 20:33-0700\n"
+"Last-Translator: Kevin Archibald <kevin@kevinsspace.ca>\n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: Plural Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:28
+msgid "Sorry - Page Not Found"
+msgstr ""
+
+#: ../404.php:29
+msgid "Sorry but we can't find what you were looking for."
+msgstr ""
+
+#: ../404.php:30
+msgid "Can you refine your search and try again?"
+msgstr ""
+
+#: ../author.php:32
+msgid "Posts by "
+msgstr ""
+
+#: ../author.php:56 ../category.php:44 ../date.php:54 ../index.php:76
+#: ../search.php:44 ../tag.php:44 ../template-fullwidth-blog.php:85
+#: ../template-home-blog.php:122
+msgid "&lt;&lt; older entries"
+msgstr ""
+
+#: ../author.php:57 ../category.php:45 ../date.php:55 ../index.php:77
+#: ../search.php:45 ../tag.php:45 ../template-fullwidth-blog.php:86
+#: ../template-home-blog.php:123
+msgid " newer entries &gt;&gt;"
+msgstr ""
+
+#: ../author.php:64 ../category.php:52 ../date.php:62 ../search.php:52
+#: ../tag.php:52
+msgid "Sorry about that but we could not find any posts!"
+msgstr ""
+
+#: ../author.php:65
+msgid "You may want to try another author."
+msgstr ""
+
+#: ../author.php:66 ../category.php:54 ../date.php:64 ../search.php:54
+#: ../single.php:56 ../tag.php:54
+msgid "Something to read?"
+msgstr ""
+
+#: ../author.php:67 ../category.php:55 ../date.php:65 ../search.php:55
+#: ../single.php:57 ../tag.php:55
+msgid "Want to read something else? These are the latest posts:"
+msgstr ""
+
+#: ../category.php:28
+msgid "Posts by Category : "
+msgstr ""
+
+#: ../category.php:53
+msgid "You may want to try another category."
+msgstr ""
+
+#: ../comments.php:17
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:20
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: ../date.php:29
+msgid "Posts for : "
+msgstr ""
+
+#: ../date.php:63 ../tag.php:53
+msgid "You may want to try another tag."
+msgstr ""
+
+#: ../footer.php:30 ../footer.php:35 ../footer.php:40 ../footer.php:46
+msgid "This column is a widget area."
+msgstr ""
+
+#: ../footer.php:30 ../footer.php:35 ../footer.php:40 ../footer.php:46
+msgid "Add widgets to Footer, something, anything!"
+msgstr ""
+
+#: ../functions.php:293
+msgid "Used for the blog"
+msgstr ""
+
+#: ../functions.php:303
+msgid "Placed in upper right hand corner of header"
+msgstr ""
+
+#: ../functions.php:313
+msgid "Placed in upper left hand corner of header"
+msgstr ""
+
+#: ../functions.php:323
+msgid "Used in Feature Area"
+msgstr ""
+
+#: ../functions.php:333
+msgid "Use this for your 404 page"
+msgstr ""
+
+#: ../functions.php:343
+msgid "Use this for your Contact page"
+msgstr ""
+
+#: ../functions.php:353
+msgid "Use this for your About page"
+msgstr ""
+
+#: ../functions.php:363
+msgid "Used for your home-blog template page"
+msgstr ""
+
+#: ../functions.php:373
+msgid "First column in footer"
+msgstr ""
+
+#: ../functions.php:383
+msgid "Second column in footer"
+msgstr ""
+
+#: ../functions.php:393
+msgid "Third column in footer"
+msgstr ""
+
+#: ../functions.php:403
+msgid "Fourth column in footer"
+msgstr ""
+
+#: ../functions.php:413 ../functions.php:423 ../functions.php:433
+#: ../functions.php:443 ../functions.php:453 ../functions.php:463
+msgid "Use for your custom pages"
+msgstr ""
+
+#: ../functions.php:534
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../functions.php:537
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:546
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:546
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:597
+msgid "Verification *"
+msgstr ""
+
+#: ../functions.php:598 ../template-contact.php:143
+msgid "Enter Captcha"
+msgstr ""
+
+#: ../functions.php:633
+msgid ""
+"You have entered an incorrect CAPTCHA value. Click the BACK button on your "
+"browser, and try again."
+msgstr ""
+
+#: ../postformat-aside.php:37 ../postformat-audio.php:63
+#: ../postformat-chat.php:66 ../postformat-gallery.php:82
+#: ../postformat-image.php:62 ../postformat-link.php:62
+#: ../postformat-quote.php:61 ../postformat-standard.php:62
+#: ../postformat-status.php:49 ../postformat-video.php:55
+msgid "Read more"
+msgstr ""
+
+#: ../postformat-aside.php:42 ../postformat-audio.php:69
+#: ../postformat-chat.php:71 ../postformat-gallery.php:88
+#: ../postformat-image.php:67 ../postformat-link.php:68
+#: ../postformat-quote.php:67 ../postformat-standard.php:67
+#: ../postformat-status.php:54 ../postformat-video.php:61
+msgid "Edit"
+msgstr ""
+
+#: ../postformat-audio.php:51 ../postformat-chat.php:55
+#: ../postformat-gallery.php:52 ../postformat-image.php:50
+#: ../postformat-link.php:50 ../postformat-quote.php:49
+#: ../postformat-standard.php:51 ../postformat-video.php:49
+msgid "By:"
+msgstr ""
+
+#: ../postformat-audio.php:52 ../postformat-chat.php:56
+#: ../postformat-gallery.php:53 ../postformat-image.php:51
+#: ../postformat-link.php:51 ../postformat-quote.php:50
+#: ../postformat-standard.php:52 ../postformat-video.php:50
+msgid "In:"
+msgstr ""
+
+#: ../postformat-audio.php:68 ../postformat-chat.php:70
+#: ../postformat-gallery.php:87 ../postformat-image.php:66
+#: ../postformat-link.php:67 ../postformat-quote.php:66
+#: ../postformat-standard.php:66 ../postformat-video.php:60
+msgid "Pages"
+msgstr ""
+
+#: ../postformat-audio.php:70 ../postformat-chat.php:72
+#: ../postformat-gallery.php:89 ../postformat-image.php:68
+#: ../postformat-link.php:69 ../postformat-quote.php:68
+#: ../postformat-standard.php:68 ../postformat-video.php:62
+msgid "Tags: "
+msgstr ""
+
+#: ../postformat-audio.php:71 ../postformat-chat.php:73
+#: ../postformat-gallery.php:90 ../postformat-image.php:69
+#: ../postformat-link.php:70 ../postformat-quote.php:69
+#: ../postformat-standard.php:69 ../postformat-video.php:63
+msgid "Single Page Link"
+msgstr ""
+
+#: ../postformat-gallery.php:75
+msgid " images"
+msgstr ""
+
+#: ../search.php:28
+msgid "Search Results : "
+msgstr ""
+
+#: ../search.php:53
+msgid "You may want to try another search."
+msgstr ""
+
+#: ../sidebar-404.php:16
+msgid "Search"
+msgstr ""
+
+#: ../sidebar-404.php:21
+msgid "Categories"
+msgstr ""
+
+#: ../sidebar-404.php:28
+msgid "Recent Posts"
+msgstr ""
+
+#: ../single.php:54
+msgid "Sorry about that - we couldn't find the post. Da link is not Da link!"
+msgstr ""
+
+#: ../single.php:55
+msgid "Don't know why, but contact us and we'll look into it."
+msgstr ""
+
+#: ../tag.php:28
+msgid "Posts for Tag : "
+msgstr ""
+
+#: ../template-archive.php:61
+msgid "Archives by Month:"
+msgstr ""
+
+#: ../template-archive.php:66
+msgid "Archives by Category:"
+msgstr ""
+
+#: ../template-archive.php:71
+msgid "Archives by Author:"
+msgstr ""
+
+#: ../template-contact.php:34
+msgid "Please enter your name."
+msgstr ""
+
+#: ../template-contact.php:38
+msgid "Please enter your email address."
+msgstr ""
+
+#: ../template-contact.php:41
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: ../template-contact.php:45
+msgid "Please enter a message."
+msgstr ""
+
+#: ../template-contact.php:50
+msgid "Please enter the captcha exactly as shown"
+msgstr ""
+
+#: ../template-contact.php:61
+msgid "A message from "
+msgstr ""
+
+#: ../template-contact.php:62 ../template-contact.php:112
+msgid "Name:"
+msgstr ""
+
+#: ../template-contact.php:62
+msgid "Email: "
+msgstr ""
+
+#: ../template-contact.php:62
+msgid "Comments:"
+msgstr ""
+
+#: ../template-contact.php:98
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: ../template-contact.php:105
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: ../template-contact.php:120
+msgid "E-mail:"
+msgstr ""
+
+#: ../template-contact.php:127
+msgid "Message:"
+msgstr ""
+
+#: ../template-contact.php:142
+msgid "Verification : "
+msgstr ""
+
+#: ../template-contact.php:158
+msgid "Send E-mail"
+msgstr ""
+
+#: ../template-portfolio.php:214
+msgid "Error: no posts or categories are wrong!"
+msgstr ""
+
+#: ../template-portfolio.php:219 ../includes/kaex-custom-functions.php:591
+#: ../includes/kaex-custom-functions.php:683
+#: ../includes/kaex-custom-functions.php:782
+#: ../includes/kaex-custom-functions.php:1009
+msgid "Error: There were no feature images found?"
+msgstr ""
+
+#: ../help/faq_tab_help.php:12 ../includes/kaex-options.php:1790
+msgid "Expressions Faq"
+msgstr ""
+
+#: ../help/faq_tab_help.php:13
+msgid "Where is the documentation for the theme?"
+msgstr ""
+
+#: ../help/faq_tab_help.php:14
+msgid "Full documentation is available at"
+msgstr ""
+
+#: ../help/general_tab_help.php:12 ../help/home_tab_help.php:12
+#: ../help/styles_tab_help.php:12
+msgid "Expressions WordPress Theme"
+msgstr ""
+
+#: ../help/general_tab_help.php:13 ../help/home_tab_help.php:13
+#: ../help/styles_tab_help.php:13
+msgid "Author Site : "
+msgstr ""
+
+#: ../help/general_tab_help.php:14 ../help/home_tab_help.php:14
+#: ../help/styles_tab_help.php:14
+msgid "Theme Demo Site : "
+msgstr ""
+
+#: ../help/general_tab_help.php:15 ../help/home_tab_help.php:15
+#: ../help/styles_tab_help.php:15
+msgid ""
+"If you try the theme and end up using it, visit the author or demo site to "
+"show your appreciation and make a donation."
+msgstr ""
+
+#: ../help/general_tab_help.php:16 ../help/home_tab_help.php:16
+#: ../help/styles_tab_help.php:16
+msgid "Detailed documentation is available at the demo site"
+msgstr ""
+
+#: ../help/general_tab_help.php:17 ../includes/kaex-options.php:1586
+msgid "General Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:18
+msgid "Email"
+msgstr ""
+
+#: ../help/general_tab_help.php:19
+msgid "\"Settings\" => \"General\" email is used if left blank."
+msgstr ""
+
+#: ../help/general_tab_help.php:20
+msgid "Favicon"
+msgstr ""
+
+#: ../help/general_tab_help.php:21
+msgid ""
+"You will need to create a favicon.png 16px x 16px image and place it in the "
+"theme root folder."
+msgstr ""
+
+#: ../help/general_tab_help.php:22
+msgid "Captcha"
+msgstr ""
+
+#: ../help/general_tab_help.php:23
+msgid ""
+"You can disable the captcha's here if you do not wish to use them, or if you "
+"are using a plugin."
+msgstr ""
+
+#: ../help/general_tab_help.php:24
+msgid ""
+"You can also use a color captcha option, if the black and white captcha is "
+"giving you problems try his one."
+msgstr ""
+
+#: ../help/general_tab_help.php:25
+msgid "Post Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:26
+msgid ""
+"You can choose to include post icons, exclude author, date, category and "
+"tags from the posts"
+msgstr ""
+
+#: ../help/general_tab_help.php:27
+msgid "jQuery Plugins"
+msgstr ""
+
+#: ../help/general_tab_help.php:28
+msgid ""
+"You can disable audio.js, colorbox.js, fitvids.js, and Responsive post "
+"images which may come in handy if you are trouble shooting website problems "
+"or if you have alternative plugins."
+msgstr ""
+
+#: ../help/general_tab_help.php:29
+msgid "Mobile Friendly Design"
+msgstr ""
+
+#: ../help/general_tab_help.php:30
+msgid ""
+"You can choose to disable mobile friendly design, not recommended, but some "
+"folks want this option."
+msgstr ""
+
+#: ../help/general_tab_help.php:31
+msgid "Sidebar Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:32
+msgid "WordPress Pages"
+msgstr ""
+
+#: ../help/general_tab_help.php:33
+msgid ""
+"All standard WordPress page sidebars can be set on the left or right side."
+msgstr ""
+
+#: ../help/general_tab_help.php:34
+msgid "Custom Pages"
+msgstr ""
+
+#: ../help/general_tab_help.php:35
+msgid ""
+"All custom page sidebars can be set on the left or right side in the page "
+"set up admin panel."
+msgstr ""
+
+#: ../help/general_tab_help.php:36 ../includes/kaex-options.php:1596
+msgid "Header Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:37
+msgid "Logo"
+msgstr ""
+
+#: ../help/general_tab_help.php:38
+msgid ""
+"For a centered logo click \"Show Logo\" and \"Center Logo\", for left side "
+"logo select \"Show Logo\" and unselect \"Center Logo\""
+msgstr ""
+
+#: ../help/general_tab_help.php:39
+msgid "Blog Title and Description"
+msgstr ""
+
+#: ../help/general_tab_help.php:40
+msgid ""
+"Both are centered in the header and come from \"Settings\" => \"General\" => "
+"\"Title\" and \"Tagline\""
+msgstr ""
+
+#: ../help/general_tab_help.php:41
+msgid "Menu"
+msgstr ""
+
+#: ../help/general_tab_help.php:42
+msgid ""
+"Place it left center or right, and with no border, full border or just a "
+"border for the menu (center option only)"
+msgstr ""
+
+#: ../help/general_tab_help.php:43 ../includes/kaex-options.php:1601
+msgid "Footer Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:44
+msgid "Footer"
+msgstr ""
+
+#: ../help/general_tab_help.php:45
+msgid ""
+"You can choose to exclude the footer, and you can choose 3 or 4 columns."
+msgstr ""
+
+#: ../help/general_tab_help.php:46
+msgid "Copyright"
+msgstr ""
+
+#: ../help/general_tab_help.php:47
+msgid ""
+"The copyright section is a strip at the bottom of the footer that accepts "
+"html. Important - use single quotes for the html properties or funny things "
+"happen!"
+msgstr ""
+
+#: ../help/general_tab_help.php:48
+msgid ""
+"Typically the copyright notice is on the left, a developer credit in the "
+"middle, and a siteplan link is on the right."
+msgstr ""
+
+#: ../help/general_tab_help.php:49 ../includes/kaex-options.php:1606
+msgid "Social Options"
+msgstr ""
+
+#: ../help/general_tab_help.php:50
+msgid "Social Links"
+msgstr ""
+
+#: ../help/general_tab_help.php:51
+msgid ""
+"Input your social links here. Make sure you test the link to ensure it works."
+msgstr ""
+
+#: ../help/home_tab_help.php:17
+msgid "Home Page Options"
+msgstr ""
+
+#: ../help/home_tab_help.php:18
+msgid ""
+"There are quite a few options for the home page. Please refer to the user "
+"documentation at the demo site."
+msgstr ""
+
+#: ../help/home_tab_help.php:19
+msgid ""
+"The documentation takes you through setting up the home page step by step."
+msgstr ""
+
+#: ../help/home_tab_help.php:20
+msgid ""
+"Any of the seven sections can be included or excluded which gives many "
+"layout options."
+msgstr ""
+
+#: ../help/styles_tab_help.php:17 ../includes/kaex-options.php:1617
+msgid "Skin Options"
+msgstr ""
+
+#: ../help/styles_tab_help.php:18
+msgid ""
+"Skins are predefined styles for your theme. Simply check the box if you want "
+"to use a skin and select one of the available skins."
+msgstr ""
+
+#: ../help/styles_tab_help.php:19 ../includes/kaex-options.php:1622
+msgid "Font Options"
+msgstr ""
+
+#: ../help/styles_tab_help.php:20
+msgid "You can select a font for the header and a font for the body."
+msgstr ""
+
+#: ../help/styles_tab_help.php:21
+msgid "There are three font options (sources) you can choose from."
+msgstr ""
+
+#: ../help/styles_tab_help.php:22
+msgid ""
+"Start by selecting the font option, then select the font from the selected "
+"option drop down box"
+msgstr ""
+
+#: ../includes/kaex-custom-functions.php:554
+#: ../includes/kaex-custom-functions.php:679
+#: ../includes/kaex-custom-functions.php:778
+#: ../includes/kaex-custom-functions.php:1005
+msgid ""
+"You have not set up your Feature posts so I can not find any images - see "
+"user documentation."
+msgstr ""
+
+#: ../includes/kaex-custom-functions.php:598
+#: ../includes/kaex-custom-functions.php:606
+#: ../includes/kaex-custom-functions.php:689
+#: ../includes/kaex-custom-functions.php:773
+msgid "This is the Feature widget area."
+msgstr ""
+
+#: ../includes/kaex-custom-functions.php:599
+#: ../includes/kaex-custom-functions.php:607
+#: ../includes/kaex-custom-functions.php:690
+#: ../includes/kaex-custom-functions.php:774
+msgid "Add widgets in Appearance=> Widgets!"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:68
+msgid "Do not include Page Title"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:69
+msgid "Click to exclude title"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:75
+msgid "Sidebar Name"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:76
+msgid "Which sidebar do you want to use?"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:95
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:96
+msgid "right side or left side?"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:106
+msgid "Feature Category"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:107
+msgid "Only for pages using a feature slider or mosaic"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:113
+msgid "Feature Type"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:114
+msgid "Pick the type of feature you want"
+msgstr ""
+
+#: ../includes/kaex-metabox-functions.php:132
+msgid "No feature"
+msgstr ""
+
+#: ../includes/kaex-options.php:70
+msgid "Expressions Options"
+msgstr ""
+
+#: ../includes/kaex-options.php:101
+msgid "Save Settings"
+msgstr ""
+
+#: ../includes/kaex-options.php:102
+msgid "Reset Defaults"
+msgstr ""
+
+#: ../includes/kaex-options.php:152
+msgid "Email address for contact page"
+msgstr ""
+
+#: ../includes/kaex-options.php:154
+msgid "Must be a valid email address"
+msgstr ""
+
+#: ../includes/kaex-options.php:162
+msgid "Show Favicon"
+msgstr ""
+
+#: ../includes/kaex-options.php:164
+msgid "You must put favicon.png in theme folder"
+msgstr ""
+
+#: ../includes/kaex-options.php:172
+msgid "Include Captcha in Comments Form"
+msgstr ""
+
+#: ../includes/kaex-options.php:174
+msgid "Check to include a captcha in your comments form"
+msgstr ""
+
+#: ../includes/kaex-options.php:182
+msgid "Include Captcha in Contact Form"
+msgstr ""
+
+#: ../includes/kaex-options.php:184
+msgid "Check to include a captcha in your contact form"
+msgstr ""
+
+#: ../includes/kaex-options.php:192
+msgid "Use color caption option"
+msgstr ""
+
+#: ../includes/kaex-options.php:194
+msgid "Check to the color option"
+msgstr ""
+
+#: ../includes/kaex-options.php:202
+msgid "Display post icons"
+msgstr ""
+
+#: ../includes/kaex-options.php:204 ../includes/kaex-options.php:214
+#: ../includes/kaex-options.php:224 ../includes/kaex-options.php:234
+#: ../includes/kaex-options.php:244 ../includes/kaex-options.php:437
+#: ../includes/kaex-options.php:447 ../includes/kaex-options.php:488
+#: ../includes/kaex-options.php:512 ../includes/kaex-options.php:944
+#: ../includes/kaex-options.php:1004 ../includes/kaex-options.php:1064
+#: ../includes/kaex-options.php:1186 ../includes/kaex-options.php:1246
+#: ../includes/kaex-options.php:1368 ../includes/kaex-options.php:1428
+msgid "Check to include"
+msgstr ""
+
+#: ../includes/kaex-options.php:212
+msgid "Include author name in blog posts"
+msgstr ""
+
+#: ../includes/kaex-options.php:222
+msgid "Include date in blog posts"
+msgstr ""
+
+#: ../includes/kaex-options.php:232
+msgid "Include category in blog posts"
+msgstr ""
+
+#: ../includes/kaex-options.php:242
+msgid "Include tags in blog posts"
+msgstr ""
+
+#: ../includes/kaex-options.php:252
+msgid "Disable audio.js plugin"
+msgstr ""
+
+#: ../includes/kaex-options.php:254
+msgid "audio.js is a javascript audio player"
+msgstr ""
+
+#: ../includes/kaex-options.php:262
+msgid "Disable colorbox.js plugin"
+msgstr ""
+
+#: ../includes/kaex-options.php:264
+msgid "colorbox.js is a javascript image plugin"
+msgstr ""
+
+#: ../includes/kaex-options.php:272
+msgid "Disable fitvids.js plugin"
+msgstr ""
+
+#: ../includes/kaex-options.php:274
+msgid "fitvids.js is the responsive video javascript plugin"
+msgstr ""
+
+#: ../includes/kaex-options.php:282
+msgid "Disable responsive post images"
+msgstr ""
+
+#: ../includes/kaex-options.php:284
+msgid "Select to disable changing post image width to %, height to auto"
+msgstr ""
+
+#: ../includes/kaex-options.php:292
+msgid "Include mobile friendly design"
+msgstr ""
+
+#: ../includes/kaex-options.php:294
+msgid "Check this to use design elements for small devices"
+msgstr ""
+
+#: ../includes/kaex-options.php:302
+msgid "Blog/Default sidebar location"
+msgstr ""
+
+#: ../includes/kaex-options.php:308
+msgid "Used for the blog pages"
+msgstr ""
+
+#: ../includes/kaex-options.php:316
+msgid "Author page sidebar location"
+msgstr ""
+
+#: ../includes/kaex-options.php:322
+msgid "Used for Author Posts"
+msgstr ""
+
+#: ../includes/kaex-options.php:330
+msgid "Category page sidebar location"
+msgstr ""
+
+#: ../includes/kaex-options.php:336
+msgid "Used to display posts by category"
+msgstr ""
+
+#: ../includes/kaex-options.php:344
+msgid "Date page sidebar location"
+msgstr ""
+
+#: ../includes/kaex-options.php:350
+msgid "Used to display posts by month"
+msgstr ""
+
+#: ../includes/kaex-options.php:358
+msgid "Search page sidebar location"
+msgstr ""
+
+#: ../includes/kaex-options.php:364
+msgid "Used to display posts from search"
+msgstr ""
+
+#: ../includes/kaex-options.php:372
+msgid "Single page sidebar location"
+msgstr ""
+
+#: ../includes/kaex-options.php:378
+msgid "Used to display single posts"
+msgstr ""
+
+#: ../includes/kaex-options.php:386
+msgid "Tag page sidebar location"
+msgstr ""
+
+#: ../includes/kaex-options.php:392
+msgid "Used to display posts by tag"
+msgstr ""
+
+#: ../includes/kaex-options.php:400
+msgid "404 Error page sidebar location"
+msgstr ""
+
+#: ../includes/kaex-options.php:406
+msgid "404 Error page is displayed when a page is not found"
+msgstr ""
+
+#: ../includes/kaex-options.php:415
+msgid "Show LOGO"
+msgstr ""
+
+#: ../includes/kaex-options.php:417
+msgid "Check to show logo in header"
+msgstr ""
+
+#: ../includes/kaex-options.php:425
+msgid "Center LOGO"
+msgstr ""
+
+#: ../includes/kaex-options.php:427
+msgid "Logo will be on the left if not centered."
+msgstr ""
+
+#: ../includes/kaex-options.php:435
+msgid "Show Blog Title"
+msgstr ""
+
+#: ../includes/kaex-options.php:445
+msgid "Show Blog Description"
+msgstr ""
+
+#: ../includes/kaex-options.php:455
+msgid "Menu border options"
+msgstr ""
+
+#: ../includes/kaex-options.php:462
+msgid "menu only setting applies only to centered menu"
+msgstr ""
+
+#: ../includes/kaex-options.php:470
+msgid "Header menu location"
+msgstr ""
+
+#: ../includes/kaex-options.php:477
+msgid "left,right or center"
+msgstr ""
+
+#: ../includes/kaex-options.php:486
+msgid "Show Footer Area"
+msgstr ""
+
+#: ../includes/kaex-options.php:496
+msgid "Select footer columns"
+msgstr ""
+
+#: ../includes/kaex-options.php:502
+msgid "How many footer columns?"
+msgstr ""
+
+#: ../includes/kaex-options.php:510
+msgid "Show Copyright Strip"
+msgstr ""
+
+#: ../includes/kaex-options.php:520
+msgid "Copyright left text"
+msgstr ""
+
+#: ../includes/kaex-options.php:522
+msgid ""
+"Some HTML allowed, suggest : &#38;copy; copyright &#60;a href='#'&#62;www."
+"yoursite.url&#60;/a&#62;"
+msgstr ""
+
+#: ../includes/kaex-options.php:530
+msgid "Copyright middle text"
+msgstr ""
+
+#: ../includes/kaex-options.php:532
+msgid ""
+"Some HTML allowed, suggest : site by &#38;nbsp; &#60;a href='#'&#62;www."
+"developer.url&#60;/a&#62;"
+msgstr ""
+
+#: ../includes/kaex-options.php:540
+msgid "Copyright right text"
+msgstr ""
+
+#: ../includes/kaex-options.php:542
+msgid "Some HTML allowed, suggest : &#60;a href='#'&#62;sitemap&#60;/a&#62;"
+msgstr ""
+
+#: ../includes/kaex-options.php:551
+msgid "Facebook Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:553
+msgid "Suggested Format:http://www.facebook.com/your_profile/"
+msgstr ""
+
+#: ../includes/kaex-options.php:561
+msgid "Twitter Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:563
+msgid "Suggested Format:http://twitter.com/your_twitter/"
+msgstr ""
+
+#: ../includes/kaex-options.php:571
+msgid "RSS Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:573
+msgid "Suggested Format:http://your.feed.url/feed/"
+msgstr ""
+
+#: ../includes/kaex-options.php:581
+msgid "Linkedin Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:583
+msgid "Suggested Format:http://ca.linkedin.com/profile link/"
+msgstr ""
+
+#: ../includes/kaex-options.php:591
+msgid "Delicious Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:593
+msgid "Suggested Format:http://www.delicious.com/save/"
+msgstr ""
+
+#: ../includes/kaex-options.php:601
+msgid "Digg Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:603
+msgid "Suggested Format:http://digg.com/user"
+msgstr ""
+
+#: ../includes/kaex-options.php:611
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../includes/kaex-options.php:613
+msgid "Suggested Format:http://pinterest.com/username/"
+msgstr ""
+
+#: ../includes/kaex-options.php:621
+msgid "Google Plus Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:623
+msgid "Suggested Format:https://plus.google.com/your_page_number/posts"
+msgstr ""
+
+#: ../includes/kaex-options.php:631
+msgid "My Space Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:633
+msgid "Suggested Format:http://www.myspace.com/your_link/"
+msgstr ""
+
+#: ../includes/kaex-options.php:641
+msgid "Tumblr Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:643
+msgid "Suggested Format:http://www.tumblr.com/your_link/"
+msgstr ""
+
+#: ../includes/kaex-options.php:652
+msgid "Use Style Skin"
+msgstr ""
+
+#: ../includes/kaex-options.php:654
+msgid "Each skin offers different colors and styles."
+msgstr ""
+
+#: ../includes/kaex-options.php:662
+msgid "Skin For Theme"
+msgstr ""
+
+#: ../includes/kaex-options.php:671
+msgid "Select a skin to use."
+msgstr ""
+
+#: ../includes/kaex-options.php:679
+msgid "Select header font option"
+msgstr ""
+
+#: ../includes/kaex-options.php:686 ../includes/kaex-options.php:771
+msgid "Select a font option for headers"
+msgstr ""
+
+#: ../includes/kaex-options.php:694
+msgid "Standard Header Fonts"
+msgstr ""
+
+#: ../includes/kaex-options.php:708
+msgid "Select a standard font for headers"
+msgstr ""
+
+#: ../includes/kaex-options.php:716
+msgid "Google Font for Headers"
+msgstr ""
+
+#: ../includes/kaex-options.php:732
+msgid "Select a Google font for headers"
+msgstr ""
+
+#: ../includes/kaex-options.php:740
+msgid "@font-face Font for Headers"
+msgstr ""
+
+#: ../includes/kaex-options.php:756
+msgid "Select a @font-face font for headers"
+msgstr ""
+
+#: ../includes/kaex-options.php:764
+msgid "Select body font option"
+msgstr ""
+
+#: ../includes/kaex-options.php:779
+msgid "Standard Font for Body Text"
+msgstr ""
+
+#: ../includes/kaex-options.php:793
+msgid "Select a font for Body Text"
+msgstr ""
+
+#: ../includes/kaex-options.php:801
+msgid "Google Font for Body"
+msgstr ""
+
+#: ../includes/kaex-options.php:817
+msgid "Select a Google font for Body Text"
+msgstr ""
+
+#: ../includes/kaex-options.php:825
+msgid "@font-face Font for Body"
+msgstr ""
+
+#: ../includes/kaex-options.php:841
+msgid "Select a @font-face font for Body Text"
+msgstr ""
+
+#: ../includes/kaex-options.php:851
+msgid "Enable Section 1"
+msgstr ""
+
+#: ../includes/kaex-options.php:853 ../includes/kaex-options.php:1095
+#: ../includes/kaex-options.php:1277 ../includes/kaex-options.php:1459
+msgid "Check to display Section 1"
+msgstr ""
+
+#: ../includes/kaex-options.php:861 ../includes/kaex-options.php:1103
+#: ../includes/kaex-options.php:1285 ../includes/kaex-options.php:1467
+msgid "Text to include"
+msgstr ""
+
+#: ../includes/kaex-options.php:863 ../includes/kaex-options.php:1105
+#: ../includes/kaex-options.php:1287 ../includes/kaex-options.php:1469
+msgid "HTML is allowed"
+msgstr ""
+
+#: ../includes/kaex-options.php:871 ../includes/kaex-options.php:1113
+#: ../includes/kaex-options.php:1184 ../includes/kaex-options.php:1244
+#: ../includes/kaex-options.php:1295 ../includes/kaex-options.php:1366
+#: ../includes/kaex-options.php:1426 ../includes/kaex-options.php:1477
+msgid "Include a link button"
+msgstr ""
+
+#: ../includes/kaex-options.php:873 ../includes/kaex-options.php:1115
+#: ../includes/kaex-options.php:1297 ../includes/kaex-options.php:1479
+msgid "Check to use a button"
+msgstr ""
+
+#: ../includes/kaex-options.php:881 ../includes/kaex-options.php:1123
+#: ../includes/kaex-options.php:1305 ../includes/kaex-options.php:1487
+msgid "Button Name"
+msgstr ""
+
+#: ../includes/kaex-options.php:883 ../includes/kaex-options.php:1125
+#: ../includes/kaex-options.php:1206 ../includes/kaex-options.php:1307
+#: ../includes/kaex-options.php:1388 ../includes/kaex-options.php:1489
+msgid "Enter text to appear on button"
+msgstr ""
+
+#: ../includes/kaex-options.php:891 ../includes/kaex-options.php:1133
+#: ../includes/kaex-options.php:1315 ../includes/kaex-options.php:1497
+msgid "Button Link"
+msgstr ""
+
+#: ../includes/kaex-options.php:893 ../includes/kaex-options.php:1135
+#: ../includes/kaex-options.php:1317 ../includes/kaex-options.php:1499
+msgid "Suggested Format:http://your.website.url/contact/"
+msgstr ""
+
+#: ../includes/kaex-options.php:902
+msgid "Enable Section 2"
+msgstr ""
+
+#: ../includes/kaex-options.php:904
+msgid "Check to display Section 2"
+msgstr ""
+
+#: ../includes/kaex-options.php:912
+msgid "Service box 1 image URL"
+msgstr ""
+
+#: ../includes/kaex-options.php:922
+msgid "Service box 1 title"
+msgstr ""
+
+#: ../includes/kaex-options.php:924
+msgid "Enter a title for Service Box 1"
+msgstr ""
+
+#: ../includes/kaex-options.php:932
+msgid "Service box 1 text"
+msgstr ""
+
+#: ../includes/kaex-options.php:934 ../includes/kaex-options.php:994
+#: ../includes/kaex-options.php:1054 ../includes/kaex-options.php:1176
+#: ../includes/kaex-options.php:1236 ../includes/kaex-options.php:1358
+#: ../includes/kaex-options.php:1418
+msgid "Enter text for your service box - html allowed"
+msgstr ""
+
+#: ../includes/kaex-options.php:942 ../includes/kaex-options.php:1002
+#: ../includes/kaex-options.php:1062
+msgid "Include a link"
+msgstr ""
+
+#: ../includes/kaex-options.php:952
+msgid "Service box 1 link"
+msgstr ""
+
+#: ../includes/kaex-options.php:954 ../includes/kaex-options.php:1014
+#: ../includes/kaex-options.php:1074 ../includes/kaex-options.php:1196
+#: ../includes/kaex-options.php:1256 ../includes/kaex-options.php:1378
+#: ../includes/kaex-options.php:1438
+msgid "Suggested Format:http://your.website.url/page/"
+msgstr ""
+
+#: ../includes/kaex-options.php:962
+msgid "Service box 1 link title"
+msgstr ""
+
+#: ../includes/kaex-options.php:964 ../includes/kaex-options.php:1024
+#: ../includes/kaex-options.php:1084 ../includes/kaex-options.php:1266
+#: ../includes/kaex-options.php:1448
+msgid "Enter a title for the button"
+msgstr ""
+
+#: ../includes/kaex-options.php:972
+msgid "Service box 2 image URL"
+msgstr ""
+
+#: ../includes/kaex-options.php:982
+msgid "Service box 2 title"
+msgstr ""
+
+#: ../includes/kaex-options.php:984
+msgid "Enter a title for Service Box 2"
+msgstr ""
+
+#: ../includes/kaex-options.php:992
+msgid "Service box 2 text"
+msgstr ""
+
+#: ../includes/kaex-options.php:1012
+msgid "Service box 2 link"
+msgstr ""
+
+#: ../includes/kaex-options.php:1022
+msgid "Service box 2 link title"
+msgstr ""
+
+#: ../includes/kaex-options.php:1032
+msgid "Service box 3 image URL"
+msgstr ""
+
+#: ../includes/kaex-options.php:1042
+msgid "Service box 3 title"
+msgstr ""
+
+#: ../includes/kaex-options.php:1044
+msgid "Enter a title for Service Box 3"
+msgstr ""
+
+#: ../includes/kaex-options.php:1052
+msgid "Service box 3 text"
+msgstr ""
+
+#: ../includes/kaex-options.php:1072
+msgid "Service box 3 link"
+msgstr ""
+
+#: ../includes/kaex-options.php:1082
+msgid "Service box 3 link title"
+msgstr ""
+
+#: ../includes/kaex-options.php:1093
+msgid "Enable Section 3"
+msgstr ""
+
+#: ../includes/kaex-options.php:1144
+msgid "Enable section 4"
+msgstr ""
+
+#: ../includes/kaex-options.php:1146
+msgid "Check to display Section 4"
+msgstr ""
+
+#: ../includes/kaex-options.php:1154
+msgid "Service box 4 image URL"
+msgstr ""
+
+#: ../includes/kaex-options.php:1164
+msgid "Service box 4 title"
+msgstr ""
+
+#: ../includes/kaex-options.php:1166
+msgid "Enter a title for Service Box 4"
+msgstr ""
+
+#: ../includes/kaex-options.php:1174
+msgid "Service box 4 text"
+msgstr ""
+
+#: ../includes/kaex-options.php:1194 ../includes/kaex-options.php:1254
+#: ../includes/kaex-options.php:1376 ../includes/kaex-options.php:1436
+msgid "Button link"
+msgstr ""
+
+#: ../includes/kaex-options.php:1204 ../includes/kaex-options.php:1386
+msgid "Button name"
+msgstr ""
+
+#: ../includes/kaex-options.php:1214
+msgid "Service box 5 image URL"
+msgstr ""
+
+#: ../includes/kaex-options.php:1224
+msgid "Service box 5 title"
+msgstr ""
+
+#: ../includes/kaex-options.php:1226
+msgid "Enter a title for Service Box 5"
+msgstr ""
+
+#: ../includes/kaex-options.php:1234
+msgid "Service Box 5 Text"
+msgstr ""
+
+#: ../includes/kaex-options.php:1264 ../includes/kaex-options.php:1446
+msgid "Button title"
+msgstr ""
+
+#: ../includes/kaex-options.php:1275
+msgid "Enable Section 5"
+msgstr ""
+
+#: ../includes/kaex-options.php:1326
+msgid "Enable section 6"
+msgstr ""
+
+#: ../includes/kaex-options.php:1328
+msgid "Check to display Section 6"
+msgstr ""
+
+#: ../includes/kaex-options.php:1336
+msgid "Service box 6 image URL"
+msgstr ""
+
+#: ../includes/kaex-options.php:1346
+msgid "Service box 6 title"
+msgstr ""
+
+#: ../includes/kaex-options.php:1348
+msgid "Enter a title for Service Box 6"
+msgstr ""
+
+#: ../includes/kaex-options.php:1356
+msgid "Service box 6 text"
+msgstr ""
+
+#: ../includes/kaex-options.php:1396
+msgid "Service box 7 image URL"
+msgstr ""
+
+#: ../includes/kaex-options.php:1406
+msgid "Service box 7 title"
+msgstr ""
+
+#: ../includes/kaex-options.php:1408
+msgid "Enter a title for Service Box 7"
+msgstr ""
+
+#: ../includes/kaex-options.php:1416
+msgid "Service Box 7 Text"
+msgstr ""
+
+#: ../includes/kaex-options.php:1457
+msgid "Enable Section 7"
+msgstr ""
+
+#: ../includes/kaex-options.php:1582 ../includes/kaex-options.php:1763
+msgid "General"
+msgstr ""
+
+#: ../includes/kaex-options.php:1591
+msgid "Sidebar Locations"
+msgstr ""
+
+#: ../includes/kaex-options.php:1613
+msgid "Styles"
+msgstr ""
+
+#: ../includes/kaex-options.php:1618
+msgid "Expressions allows you to select a predefined skin."
+msgstr ""
+
+#: ../includes/kaex-options.php:1623
+msgid "You can select different fonts for your site."
+msgstr ""
+
+#: ../includes/kaex-options.php:1629 ../includes/kaex-options.php:1781
+msgid "Home Page"
+msgstr ""
+
+#: ../includes/kaex-options.php:1633
+msgid "Section 1 Options"
+msgstr ""
+
+#: ../includes/kaex-options.php:1634
+msgid "Section 1 contains html text and an optional button."
+msgstr ""
+
+#: ../includes/kaex-options.php:1638
+msgid "Section 2 Options"
+msgstr ""
+
+#: ../includes/kaex-options.php:1639
+msgid ""
+"Section 2 contains 3 service boxes, allowing an image,title,html text,and a "
+"button."
+msgstr ""
+
+#: ../includes/kaex-options.php:1643
+msgid "Section 3 Options"
+msgstr ""
+
+#: ../includes/kaex-options.php:1644
+msgid "Section 3 contains html text and an optional button."
+msgstr ""
+
+#: ../includes/kaex-options.php:1648
+msgid "Section 4 Options"
+msgstr ""
+
+#: ../includes/kaex-options.php:1649
+msgid ""
+"Section 4 contains 2 service boxes, allowing an image,title,html text,and a "
+"button."
+msgstr ""
+
+#: ../includes/kaex-options.php:1653
+msgid "Section 5 Options"
+msgstr ""
+
+#: ../includes/kaex-options.php:1654
+msgid "Section 5 contains html text and an optional button."
+msgstr ""
+
+#: ../includes/kaex-options.php:1658
+msgid "Section 6 Options"
+msgstr ""
+
+#: ../includes/kaex-options.php:1659
+msgid ""
+"Section 6 contains 2 service boxes, allowing an image,title,html text,and a "
+"button."
+msgstr ""
+
+#: ../includes/kaex-options.php:1663
+msgid "Section 7 Options"
+msgstr ""
+
+#: ../includes/kaex-options.php:1664
+msgid "Section 7 contains html text and an optional button."
+msgstr ""
+
+#: ../includes/kaex-options.php:1772
+msgid "Style"
+msgstr ""
+
+#: ../widgets/social_widget.php:39
+msgid "Display social links"
+msgstr ""
+
+#: ../widgets/social_widget.php:41
+msgid "Expressions Social Links Widget"
+msgstr ""

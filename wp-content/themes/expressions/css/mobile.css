@@ -1,0 +1,270 @@
+/**
+ * This file contains the media queries and adjusted css for smaller devices
+ * Custom fonts file
+ *
+ * @package		Expressions WordPress Theme
+ * @copyright	Copyright (c) 2013, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ */
+@media screen and (max-width: 900px) {
+	
+	.portfolio_four_column_wrap .thin-border {display: none;}
+
+	.portfolio_four_column {width: 100%;}
+																		
+}
+
+@media screen and (max-width: 700px){
+	
+	/* ------------------- Navigation ---------------- */
+	#header-wrap .thin-border {border:none;}
+	#main_menu_ul {display:none;}
+	.nav-container select.menu{
+		width: 90%;
+		display: block;
+		margin: 10px auto 0px auto;
+		padding: 5px 0px 5px 1em;
+	}
+	
+	nav {padding-bottom:10px;}
+	
+	/* -------------- static home page styles ------------ */
+	.servicebox-type-A {
+		float: left;
+		width: 92%;
+	}
+	
+	.home-section-type-B {
+		width: 96%;
+	}
+	
+	.servicebox-type-C {
+		float: left;
+		width: 92%;
+	}
+	
+	/* --------- footers ---------------- */
+	.footercol-3 {
+		float: left;
+		width: 92%;
+		padding: 0em 4% 0em 4%;
+	}
+	
+	.footercol-4 {
+		float: left;
+		width: 92%;
+		padding: 0em 4% 0em 4%;
+	}
+	
+	/* ------- feature elements ------ */
+	.slider-wrapper .nivo-thumbs-enabled a.nivo-control img {max-width: 36px;}
+	
+	.half-slider-wrapper .nivo-thumbs-enabled a.nivo-control img {max-width: 38px;}
+	
+	.feature-right-30 {
+		width: 90%;
+		float: left;
+		padding: 1em 5% 0em 5%;
+	}
+	
+	.feature-right-30 .kaex-social-widget {padding: 0px;}
+	
+	.feature-right-30 .kaex-social-widget a {
+		margin: 0px 0px 0px 5px;
+	}
+	
+	.feature-right-30 .kaex-social-widget img {
+		margin: 10px 0px 0px 5px;
+		padding: 0px;
+	}
+	
+	.feature-right {
+		max-width: 90%;
+		float: left;
+		padding: 1em 5% 0em 5%;
+	}
+	
+	.feature-right .kaex-social-widget {padding: 0px;}
+	
+	.feature-right .kaex-social-widget img {
+		margin: 10px 0px 0px 5px;
+		padding: 0px;
+	}
+	
+	.half-slider-wrapper {
+		width: 90%;
+		margin-left: 6%;
+	}
+	
+	.left-feature {display: none;}
+	
+	.single-small {
+		width: 90%;
+		float: left;
+		margin: 0em 5% 1em 5%;
+	}
+	
+	.center-slider-wrapper,.single-center{
+		float: left;
+		width: 90%;
+		margin: 0em 5% 0em 5%;
+	}
+	
+	.center-slider-wrapper .nivo-thumbs-enabled a.nivo-control img {max-width: 40px;}
+	
+	/*------ Sidebar layouts ---------------- */
+	#widecolumn-left,#widecolumn-right {
+		width: 92%;
+		float: left;
+		margin: 2.0em 0em .625em 0em;
+		padding: 0em 4% 0em 4%;
+	}
+	
+	#sidebar-right,#sidebar-left {
+		width: 92%;
+		float: left;
+		margin: 3em 0em 0.625em 0em;
+		padding: 0em 4% 0em 4%;
+		border: none;
+		height: auto!important;
+	}
+	
+	/* ---------- portfolio layouts ----------------- */
+	
+	#portfolio-full-width .thin-border{display:none;}
+	
+	.portfolio_one_column .left_col {width: 100%;}
+	
+	.portfolio_one_column .right_col{
+		width: 90%;
+		float: left;
+		padding: 0em 5% 1em 5%;
+	}
+	
+	.portfolio_one_column .display_caption,
+	.portfolio_one_column .display_description {
+		display:none;
+	}
+	
+	.portfolio_two_column{width: 100%;}
+	
+	.portfolio_three_column {
+		width: 90%;
+		float: left;
+		overflow: hidden;
+		margin: 0em 5% 2em 5%;
+	}
+}
+ 
+@media screen and (max-width: 485px){
+	/* ------------ General ------------------ */
+	
+	body {
+		font-size: 87.5%; /* all theme fonts are scaled from this size - 100% is 16px */
+		line-height: 1.3125em;
+	}
+
+	h1,h2,h3,h4,h5,h6 {line-height: 1.3125em;}
+
+	h1 {font-size: 1.75em;}
+
+	h2 {font-size: 1.5em;}
+
+	h3 {font-size: 1.25em;}
+
+	h4 {font-size: 1.15em;}
+
+	h5 {font-size: 1.00em;}
+
+	h6 {font-size: 0.8571em;}
+
+	/*------------- Header ------------------- */
+	.header-widget {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}	
+		
+	.header-widget .widget_text {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.header-widget .ka_express_social_links_widget_class {
+		width: 100%;
+	}
+	
+	.header-widget .ka_express_social_links_widget_class .kaex-social-widget {
+		display: block;
+		text-align: center;
+	}
+	
+	.header-widget .ka_express_social_links_widget_class .kaex-social-widget a {
+		display: inline;
+		float: none;
+		text-align: center;
+	}
+	
+	.header-widget-left {
+		width: 100%;
+		padding: 0 0 1em 0;
+		margin: 0;
+	}
+	
+	.header-widget-left .widget_text {
+		text-align: center;
+	}
+	
+	.header-image-left,.header-image-center  {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.header-image-left a,.header-image-center a {
+		display: block;
+		text-align: center;
+	}	
+	
+	.header-image-left img,.header-image-center img {
+		width: 50%;
+		margin: 0px;
+	}
+	
+	.blog-title-center-2,.blog-title-center {	
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	/* ------- feature elements ------ */
+	.slider-wrapper .nivo-thumbs-enabled a.nivo-control img {max-width: 20px;}
+	
+	.slider-wrapper .nivo-controlNav img {margin-right: 0px;}
+	
+	.half-slider-wrapper .nivo-thumbs-enabled a.nivo-control img {max-width: 24px;}
+	
+	.center-slider-wrapper .nivo-thumbs-enabled a.nivo-control img {max-width: 24px;}
+	
+	/* ------- homepage elements ------ */
+	
+	.home-section-type-A-button a.button1 {font-size: 0.875em;padding: 2px 5px 2px 5px;}
+	
+	/* ------- copywright elements ------ */
+	
+	.copyright_c1,.copyright_c2,.copyright_c3 {
+		clear:both;
+		float:left;
+		width:90%;
+		margin: 0.25em 5% 0.25em 5%;
+		padding: 0em;
+		text-align: left;
+	}
+	
+	/* --------- Color Box -------------- */
+	#cboxTitle {
+		visibility: hidden;
+	}		
+
+}

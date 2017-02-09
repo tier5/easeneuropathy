@@ -1,0 +1,12 @@
+Feb 03 2017 06:06:44
+{"Number":2,"Message":"fopen(\/home\/easeneur\/public_html\/wp-content\/plugins\/all-in-one-wp-migration\/storage\/14r3nvb33isd\/filemap.list) [<a href='function.fopen'>function.fopen<\/a>]: failed to open stream: No such file or directory","File":"\/home\/easeneur\/public_html\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/model\/export\/class-ai1wm-export-content.php","Line":73}
+
+Feb 03 2017 06:06:44
+{"Number":2,"Message":"fseek() expects parameter 1 to be resource, boolean given","File":"\/home\/easeneur\/public_html\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/model\/export\/class-ai1wm-export-content.php","Line":82}
+
+Feb 03 2017 06:06:44
+{"Number":2,"Message":"fgets() expects parameter 1 to be resource, boolean given","File":"\/home\/easeneur\/public_html\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/model\/export\/class-ai1wm-export-content.php","Line":87}
+
+Feb 03 2017 06:06:44
+{"Number":2,"Message":"fclose() expects parameter 1 to be resource, boolean given","File":"\/home\/easeneur\/public_html\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/model\/export\/class-ai1wm-export-content.php","Line":152}
+

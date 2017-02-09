@@ -1,0 +1,377 @@
+/**
+ * 
+ * This is the css file for the Block Gray skin
+ * 
+ * @package		Expressions WordPress Theme
+ * @copyright	Copyright (c) 2013, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ * 
+ * ====================================================================================== */
+
+/* -------------------- Main Body color and font- size ---------------------------------- */
+body {
+	color: #6C6F70; /* This is the basic font color */
+	font-size: 100%; /* all theme fonts are scaled from this size - 100% is 16px */
+}
+
+/* ================================================================== *
+ *                   Layout Styles                                    *
+ * ================================================================== */
+
+/* ------------- Header Styles -------------------------------------- */
+
+header {background-color: transparent;}
+
+#header-wrap {background: #FFFFFF;}
+
+.blog-title-center-2 h1 a {color: #6C6F70;}
+
+.blog-title-center-2 h1 a:hover {color: #540909;}
+
+.blog-title-center h1 a {color: #6C6F70;}
+
+.blog-title-center h1 a:hover {color: #540909;}
+
+/* ------------- Nav Styles -------------------------------------- */
+
+.nav-container {
+	clear: both;
+	text-decoration: none;
+	background: #686868;
+	background-image: linear-gradient(#545454, #3F3F3F 15%,#3F3F3F 85%, #545454);
+}
+
+.thin-border {border-top: 1px solid #E8ECF2;}
+
+#main-menu-center-border {
+	border-top: 1px solid #E8ECF2;
+	border-bottom:	1px solid #E8ECF2;
+}
+
+/* ------------- Superfish Nav Styles ----------------------------- */
+.sf-menu a { color:	#f4f4f4; }
+
+.sf-menu li { background-color: transparent; }
+
+.sf-menu ul li { background: #3F3F3F; }
+
+.sf-menu ul li a { color: #f4f4f4; }
+
+.sf-menu ul ul li { background: #3F3F3F; }
+
+.sf-menu li:hover, .sf-menu li.sfHover { background: #a3a3a3; }
+
+.sf-arrows .sf-with-ul:after {
+	border-top-color: #f4f4f4;
+	border-top-color: rgba(244,244,244,0.75);
+}
+
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+	border-top-color: #f4f4f4;
+	border-top-color: rgba(244,244,244,1.0);
+}
+
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after {
+	border-left-color: #f4f4f4;
+	border-left-color: rgba(244,244,244,0.75);
+}
+
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: #f4f4f4;
+	border-left-color: rgba(244,244,244,1.0);
+}
+
+/* -------------------- Footer Styles ------------------------------ */
+footer {background-color: transparent;}
+
+#footer-wrap {
+	background: #686868;
+	color: #F9F9F9;
+}
+
+footer a {color: #F9F9F9;}
+
+footer a:hover {
+	font-weight: bold;
+	color:#F9F9F9;
+}
+
+#copyright {background-color: transparent;}
+
+#copyright-wrap {
+	background-color: #3F3F3F;
+	color: #F7F7F7;
+}
+
+#copyright a {color: #ffffff;}
+
+/*  ----------- Main area styling ----------------------- */
+
+#main-section {background-color: transparent;}
+
+#content-wrap {background-color: #FFFFFF;}
+
+/* ------------- Sidebar Styles -------------------------------------- */
+#sidebar-right {border-left: 2px solid #E8ECF2;}
+
+#sidebar-left {border-right: 2px solid #E8ECF2;}
+
+/*  ======================================================= *                   
+ *                    Page Styles                           *
+ * ======================================================== */
+
+.page-title-wide {background-color: transparent;}
+
+.page-title-wrap {
+	background: #E8E8E8;
+	background-image: linear-gradient(to right, #C4C4C4, #E8E8E8 50%, #C4C4C4);
+}
+
+/* ------------- Full Width Blog Styles ----------------- */
+.fullwidth-blog-title-wide {background-color: transparent;}
+
+.fullwidth-blog-title-wrap {
+	background: #E8E8E8;
+	background-image: linear-gradient(to right, #C4C4C4, #E8E8E8 50%, #C4C4C4);
+}
+
+/* -------------- Author Page Styling ---------------------------------- */
+.author-bio,.category-page,.search-page {
+	border: 5px solid white;
+	background: #DDDDDD;
+}
+
+.author-border {border-bottom: 3px solid white;}
+
+/* -------------- Portfolio Page Styling ------------------------------- */
+.portfolio_one_column .left_col img {border: 8px solid white;}
+
+.portfolio_two_column .image_container img {border: 7px solid white;}
+
+.portfolio_three_column .image_container img {border: 6px solid white;}
+
+.portfolio_four_column .image_container img {border: 5px solid white;}
+
+/* -------------------- HTML tags ---------------------------------- */ 
+ins {
+    background-color:#ff9;
+    color:#000;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+}
+
+hr {border-top:1px solid #DDDDDD;}
+
+pre {
+	border: solid 5px gray; /* 8px/16px */
+    color: blue;
+    background: #F7F4F4;
+}
+
+/* -------------------- links default ------------------------------- */ 
+a {color: #540909;} /* #447BCE */
+
+a:hover {color: #6C6F70;}
+
+/* --------------------- table styles ------------------------------- */
+th {
+	border: 1px solid #7F7F7F;
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.2);
+}
+
+tfoot {
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.3);
+}
+
+td {border: 1px solid #7F7F7F;}
+
+/* ---------- WrdPress Calender Widget Style ------------------------ */
+	
+#wp-calendar th {
+	border: 1px solid #F9F9F9;
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.2);
+}
+
+#calendar_wrap td#today {
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.2);
+}
+
+/* -------------------- Responsive imaging ------------------------- */
+img {border: 8px solid white;}
+
+img.addborder {border: 8px solid white;}
+
+/*        Feature Set Up Styles
+-------------------------------------------------------- */
+
+.feature {background-color: transparent;}
+
+.feature-wrap {
+	background-color: #E8E8E8;
+	background-image: linear-gradient(to right, #C4C4C4, #E8E8E8 50%, #C4C4C4);
+}
+
+/* ----------------------- static home styles ----------------------- */
+.home-section-type-A {
+	background: rgba(213,213,213,0.5);
+   	border-radius: 3px;
+	box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.8);
+}
+
+.home-section-type-A-button a.button1 {
+	background: #7F7F7F;
+	color : #FCFCFC;
+}
+
+.home-section-2-wrap {
+	background: rgba(213,213,213,0.5);
+   	border-radius: 3px;
+	box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.8);
+}
+
+.servicebox-type-A {
+
+}
+
+.servicebox-type-A  a.button1,
+.home-section-type-B-html-image a.button1,
+.home-section-type-B-html-noimage a.button1 {
+	background: #7F7F7F;
+	color : #FCFCFC;
+}
+
+.home-section-type-B-wrap,
+.home-section-type-C-wrap
+{
+	background: rgba(213,213,213,0.5);
+   	border-radius: 3px;
+	box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.8);
+}
+
+/* --------------- post styles ------------------------------------ */
+/* --------------- post general------------------------------------ */
+.post-title a:hover {color: #7F7F7F;}
+
+.post-wrap .comments,.post-wrap-no-icons .comments {color: #7F7F7F;}
+
+a.comments-button {
+	border: 1px solid #AFAFAF;
+	background-color: #E8ECF2;
+	color: #540909;
+}
+
+a:hover.comments-button {
+	background-color: #540909;
+	color: #f2f2f2;
+}
+
+/* --------------- post format content : standard ----------------- */
+.entry img {border: 8px solid white;}
+
+.entry .wp-caption {background: white;}
+
+/* --------------- post format content : aside --------------------- */
+.aside-entry {
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.3);
+}
+
+/* --------------- post format content : status -------------------- */
+.status-entry {
+	background-color: #FBFF8E;
+	background-color: rgba(251,255,142,0.3);
+}
+
+.status-entry .comments {color: #7F7F7F;}
+
+/* --------------- post format content : video ---------------------- */
+.video-entry .video-wrap {
+	background: black;
+	border: 3px solid silver;
+}
+
+.video-entry .video-wrap p {color: #EAEAEA;}
+
+.video-entry .video-wrap a {color: #EAEAEA;}
+
+.video-entry .video-wrap a:hover {color: white;}
+
+/* --------------- post format content : quote ----------------------- */
+.quote-entry blockquote {
+	border: 5px solid white;
+	background: #D1F2A9;
+}
+
+/* --------------- post format content : image ----------------------- */
+.image-entry .wp-caption {background: white;}
+
+.image-entry img {border: 8px solid white}
+
+/* --------------- post format content : audio ----------------------- */
+.audio-entry .audio-wrap {background-color: #D4E6F7;}
+
+/* --------------- Bottom line after every post ---------------------- */
+.bottom-line-1 {
+	border-top: 1px solid #AFAFAF;
+	border-bottom: 3px solid #DDDDDD;
+}
+
+/* -------------- Galleries ------------------------------------------ */
+
+#content-wrap .gallery-item img{border: 5px solid white;}
+
+/* -------------- Comments Styling ----------------------------------- */
+
+.comment {
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+}
+
+.commentlist .bypostauthor {
+	background: rgba(226,226,226,0.25);
+}
+
+.blog_comment_click a {
+	border: 1px solid #DDDDDD;
+	background-color: #f7f7f7;
+}
+
+.author-bio,.category-page,.search-page {
+	border: 5px solid white;
+	background: #DDDDDD;
+}
+
+.author-border {
+	border-bottom: 3px solid white;
+}
+
+/* --------- Contact Page Styling ----------------------------------------*/
+
+#contactmeform input {
+	background-color: #565659;
+	background-color: rgba(86,86,89,0.2);
+}
+
+#contactmeform textarea {
+	background-color: #565659;
+	background-color: rgba(86,86,89,0.2);
+}
+
+/* -------------- Error Styling ---------------------------------------- */
+.error {	
+	color: red;
+	background-color: white;
+}

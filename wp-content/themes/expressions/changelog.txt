@@ -1,0 +1,157 @@
+==========================================================================================
+                 Expressions WordPress Theme Change Log
+==========================================================================================
+
+Version 2.1.0 - Released dd-MMM-YY
+-----------------------------------
+- added class="entry-title" to post titles
+- set up a ka_express_post_meta_top() function, and developed hatom friendly markup
+- set up ka_express_post_meta_bottom() function
+- added fix to chat filter for protected posts
+- cleaned up css removing ie legacy styles
+- removed height: 100%; and background-attachment: fixed; from #main-section  and #content-wrap in blue skin and grey skin to fix excessive white space
+- removed ie7 and ie 8 checks in ka_express_load_js() and ka_express_styles()
+- removed audiojs.js
+- changed img.avatar width:50px!important; to width:auto!important;
+- added Flickr, Vimeo, Yelp, and YouTube to social widget
+- added font icon options for post formats, social, metabox and list items
+- added contact me widget
+- added author bio widget
+- upgraded to colorbox 1.4.36 and added slideshow option
+- split up General options tab to:General,Sidebars,Header,Footer,and Social
+- changed option defaults to have blog title and description load by default
+- updated ka_express_setting_callback() for better sanitization
+- improved ie11 compatibility
+- added options for transition effect and time and pause time on Nivo Slider
+- Modifies template-contact.php, having full form show after successful submit.
+- Added popup error message for both content and widget contacts.
+- Added no button nav options and tightened spacing on slider
+- Modified the portfolio code to use template parts to simplify the code flow
+- Removed paragraph tags from home section 2 text
+- Re-coded home sections; added 4 service box layout, added Section 8, and users can 
+  put any of the 8 layouts, in any of the 8 sections
+- Removed custom mediaelement as it is now fully responsive
+
+Version 2.0.1 - Released 23-Jan-13
+-----------------------------------
+- still problems with ie11, added immediately below <head> tag
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  
+Version 2.0.0 - Released 22-Jan-13
+-----------------------------------
+- This is an interim update to resolve IE11 conflicts, a more extensive update is
+  in development
+- Expressions is now compatible with IE9 and higher
+- removed conditional css tags in header.php. 
+- removed all ie7 and ie8 references/css
+- removed filter: alpha(opacity=50); from css (ie8 property)
+
+Version 1.28.4 - Released 08-Aug-13
+-----------------------------------
+- changed image structure to allow full width within the parent element
+- simplified image resizing js script
+- added page title styling similar to other pages in template-feature.php
+- modified template-home-blog.php, template-fullwidth-blog.php so <!--more--> tags work
+- increased excerpt filter settings on template-portfolio.php
+- fixed bug in video post format to show links properly
+- removed audio filter as this is now fixed in core
+- updated colorbox to version 1.4.27
+- added png images to color box presentations
+- updated superfish to 1.7.4 and modified css in skins
+- removed box-shadow and border-radius browser prefixes
+- added option to display single posts without a sidebar
+
+Version 1.16.3 - Released 11-Jul-13
+-----------------------------------
+- removed audio, video, and quote post shortcodes, including the text and 
+  visual toolbar buttons.
+- updated the translation.
+- updated the readme.txt and changelog.txt files
+- developed a plugin to incorporate the shortcodes. This plugin will be available 
+  separately at kevinsspace.ca
+- updated the docs
+- added the "Show Your Appreciation Section" to the General options tab
+- fixed feature image stretching
+
+Version 1.09.2 - Released 10-Jul-13
+-----------------------------------
+- fixed button shadows on webkit and moz elements, fixed for link post
+- changed date display format to the one selected in Settings General
+- went through and removed all Post Format UI specific elements and tested all 
+  posts and skins
+- set up short codes for Audio, Video and Quote Post Formats
+- added shotscodes to Text and Visual Toolbars
+- Updated the documentation
+- added css styling for pagenavi for better responsiveness
+- added ms gradients
+- fixed IE10 bugs, feature image not clickable
+
+Version 1.0.1 - Released 16-May-13
+-----------------------------------
+- fixed bug in css full size for captioned images, eliminating borders
+- changed $content_width to 625px
+- added set_post_thumbnail_size( 624, 9999 ); to ka_express_theme_supports ()
+- changed all feature image posts on post format templates to the_post_thumbnail(); 
+  instead of the_post_thumbnail(array(600,600));
+- fixed hover state formatting for link post format
+
+Version 0.40.5 - Released 12-May-13
+-----------------------------------
+- fixed static page pagination for static page in template-home-blog
+- fixed static page pagination for static page in template-fullwidth-blog
+- changed default responsive image switch to 0 so it is not loaded by default
+
+Version 0.37.4 - Released 6-May-13
+-----------------------------------
+- changed css formatting on the nivo slider to prevent image stacking, and improve display
+- modified social icons to 24px and 32px size options instead of 16px and 32 px
+- removed title from siteplan template
+- Added respimg class to all post sections to alow for jQuery script to set them up 
+  as responsive. Enqued jQuery script and set up a option to disable the script. All post 
+  images will now have width changed to a % , based on layout setup, and height set to auto
+- went through page layouts and simplified where possible
+- modified template-home-blog.php post content to not show post divs if there is no content
+- removed line break from index.php and template-home-blog.php after every post and before 
+  each bottom-line
+- changed spacing on .postmetabottom and .bottom-line-1
+- changed  spacing on .author-bio .avatar
+- fixed css on half slider to better center slider in one column response
+- changed css for small single image feature to better set the right section from the left
+- modified html class and css on service box type A to allow the buttons to stay at the top
+- modified all avatar css by adding width: 50px!important; to ensure they are not responsive
+- added minor changes to h1-h6 font-sizes and body font-sizes when screen width falls below 480px
+- modified Gallery post format code so it would work with id's
+- modified post format video css
+- switched audio format to the new mediaelements one with audio.js fallback
+- modified quote format for new post format UI
+- modified the table formatting to left align first column and center everything else
+- fine tuned pinglist formats
+- modified .nav-container to display as a block in left and right menu options
+- updated visual styles
+- updated translation
+
+Version 0.14.3 - Released 12-Apr-13
+-----------------------------------
+- updated superfish to 1.6.9
+- added box shadows to post formats: status, aside, video, audio
+- updated captcha to allow use of color captcha's as an option, this captcha style also 
+  generates the image in a different fashion, alowing greater compatibility.
+- re-developed social icons to accomodate licensing requirements of WordPress.org
+- escaped home_url() and site_url() for theme review security requirements 
+- function ka_express_load_js now hooked to 'wp_enqueue_scripts'
+- function ka_express_enqueue_comment_reply_script now hooks to 'wp_enqueue_scripts'
+- re-coded all sidebars changing <ul> wrappers to divs, using full array definitions, 
+  and wrapping in a function ka_express_register_sidebars() action hooked by 'widget_init'
+- removed @font-face fonts incompatible with GPL
+
+Version 0.5.2 - Released 27-Mar-13
+----------------------------------
+- fixed Colorbox display of Gallery items in iPhone mode by removing title from control strip
+- updated superfish to 1.6.5 and hoverIntent to R7
+- fixed bug in comments section of template-contact.php with tabs between textarea tags
+- updated captcha.php code to minimize potential conflicts with plugins
+- fixed nonce verification bug in custom post and page metaboxes
+
+Version 0.0.1 - Released 12-Mar-13
+----------------------------------
+- original release

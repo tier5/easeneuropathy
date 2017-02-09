@@ -1,0 +1,347 @@
+/**
+ *
+ * This is the css file for the Black Skin
+ * 
+ *
+ * @package		Expressions WordPress Theme
+ * @copyright	Copyright (c) 2013, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ *
+ * ====================================================================================== */
+
+/* -------------------- Main Body color and font- size ---------------------------------- */
+body {
+	color: #111111; /* This is the basic font color */
+	font-size: 100%; /* all theme fonts are scaled from this size - 100% is 16px */
+}
+
+/* ================================================================== *
+ *                   Layout Styles                                    *
+ * ================================================================== */
+
+/* ------------- Header Styles -------------------------------------- */
+
+header {background-color: #FFFFFF;}
+
+#header-wrap {background-color: #FFFFFF;}
+
+.blog-title-center-2 h1 a {color: #6C6F70;}
+
+.blog-title-center-2 h1 a:hover {color: #540909;}
+
+.blog-title-center h1 a {color: #6C6F70;}
+
+.blog-title-center h1 a:hover {color: #540909;}
+
+/* ------------- Nav Styles -------------------------------------- */
+.thin-border {border-top: 1px solid #E8ECF2;}
+
+#main-menu-center-border {
+	border-top: 1px solid #E8ECF2;
+	border-bottom:	1px solid #E8ECF2;
+}
+
+/* ------------- Superfish Nav Styles ----------------------------- */
+.sf-menu a { color:	#6C6F70; }
+
+.sf-menu li { background: none; }
+
+.sf-menu ul li { background: #ffffff; }
+
+.sf-menu ul ul li {	background:	#ffffff; }
+
+.sf-menu li:hover, .sf-menu li.sfHover { background: #D1D1D1; }
+
+/* -------------------- Footer Styles ------------------------------ */
+footer {
+	background-color: #2F2F33;
+	background-image: linear-gradient(to right, #000000, #5D5D60 50%, #000000);
+	color: #F9F9F9;
+}
+
+#footer-wrap {background-color: transparent;}
+
+#copyright {
+	background-color: #0C0C0D;
+	color: #F9F9F9;
+}
+
+#copyright a {
+	color: white;
+	font-style: italic;
+}
+
+#copyright-wrap {background-color: transparent;}
+
+/* -------------------- HTML tags ---------------------------------- */ 
+ins {
+    background-color:#ff9;
+    color:#000;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+}
+
+hr {border-top:1px solid #DDDDDD;}
+
+pre {
+	border: solid 5px gray; /* 8px/16px */
+    color: blue;
+    background: #F7F4F4;
+}
+
+/* -------------------- links default ------------------------------- */ 
+a {color: #ED6A1A;} /* #447BCE */
+
+a:hover {color: #6C6F70;}
+
+/* --------------------- table styles ------------------------------- */
+th {
+	border: 1px solid #7F7F7F;
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.2);
+}
+
+tfoot {
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.3);
+}
+td {border: 1px solid #7F7F7F;}
+
+/* ---------- WordPress Calender Widget Style ------------------------ */
+	
+#wp-calendar th {
+	border: 1px solid #F9F9F9;
+	background-color: #565659;
+	background-color: rgba(86,86,89,0.2);
+}
+
+#calendar_wrap td#today {
+	background-color: #565659;
+	background-color: rgba(86,86,89,0.2);
+}
+
+/* ------------- Layout Styles -------------------------------------- */
+#main-section {
+	height: 100%;
+	background-attachment: fixed;
+	background-color: #FFFFFF;
+}
+
+#content-wrap {
+	height: 100%;
+	background-attachment: fixed;
+	background-color: #FFFFFF;
+}
+
+
+/* ------------- Sidebar Styles -------------------------------------- */
+#sidebar-right {border-left: 2px solid #E8ECF2;}
+
+#sidebar-left {border-right: 2px solid #E8ECF2;}
+
+/* -------------------- Responsive imaging ------------------------- */
+img {border: 8px solid white;}
+
+img.addborder {border: 8px solid white;}
+
+/*        Feature Set Up Styles
+-------------------------------------------------------- */
+
+.feature {
+	background-color: #2F2F33;
+	background-image: linear-gradient(to right, #000000, #5D5D60 50%, #000000);
+}
+
+.feature-wrap {
+	color: #F9F9F9;
+}
+
+.theme-default .nivoSlider {
+	background: transparent url(loading.gif) no-repeat 50% 50%;
+}
+
+/* ----------------------- static home styles ----------------------- */
+.home-section-type-A {background-color: #FFFFFF;}
+
+.home-section-type-A-button a.button1 {
+	background: #7F7F7F;/*#7F7F7F*/
+	color : #FCFCFC;
+}
+
+.home-section-2-wrap {
+	background-color: #FCFCFC;
+	background-image: linear-gradient(#D6D6D6, #ffffff 5%, #ffffff 95%, #D6D6D6);
+}
+
+.servicebox-type-A  a.button1,
+.home-section-type-B-html-image a.button1,
+.home-section-type-B-html-noimage a.button1 {
+	background: #EDEDED;/*#7F7F7F*/
+	color : #999999;/*#FCFCFC*/
+}
+
+/* --------------- post styles ------------------------------------ */
+/* --------------- post general------------------------------------ */
+.post-title a:hover {color: #7F7F7F;}
+
+.post-wrap .comments,.post-wrap-no-icons .comments {color: #7F7F7F;}
+
+a.comments-button {
+	border: 1px solid #AFAFAF;
+	background-color: #E8ECF2;
+	color: #540909;
+}
+
+a:hover.comments-button {
+	background-color: #540909;
+	color: #f2f2f2;
+}
+
+/* --------------- post format content : standard ----------------- */
+.entry img {border: 8px solid white;}
+
+.entry .wp-caption {background: white;}
+
+/* --------------- post format content : aside --------------------- */
+.aside-entry {
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.3);
+}
+
+/* --------------- post format content : status -------------------- */
+.status-entry {
+	background-color: #FBFF8E;
+	background-color: rgba(251,255,142,0.3);
+}
+
+.status-entry .comments {color: #7F7F7F;}
+
+/* --------------- post format content : video ---------------------- */
+.video-entry .video-wrap {
+	background: black;
+	border: 3px solid silver;
+}
+
+.video-entry .video-wrap p {color: #EAEAEA;}
+
+.video-entry .video-wrap a {color: #EAEAEA;}
+
+.video-entry .video-wrap a:hover {color: white;}
+
+/* --------------- post format content : quote ----------------------- */
+.quote-entry blockquote {
+	border: 5px solid white;
+	background: #D1F2A9;
+}
+
+/* --------------- post format content : image ----------------------- */
+.image-entry .wp-caption {background: white;}
+
+.image-entry img {border: 8px solid white}
+
+/* --------------- post format content : audio ----------------------- */
+.audio-entry .audio-wrap {background-color: #D4E6F7;}
+
+/* --------------- Bottom line after every post ---------------------- */
+.bottom-line-1 {
+	border-top: 1px solid #AFAFAF;
+	border-bottom: 3px solid #DDDDDD;
+}
+
+/* -------------- Galleries ------------------------------------------ */
+
+#content-wrap .gallery-item img{border: 5px solid white;}
+
+/* -------------- Comments Styling ----------------------------------- */
+
+.comment {
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+}
+
+.commentlist .bypostauthor {
+	background: url(images/shade.png);
+	background: rgba(226,226,226,0.25);
+}
+
+.blog_comment_click a {
+	border: 1px solid #DDDDDD;
+	background-color: #f7f7f7;
+}
+
+.author-bio,.category-page,.search-page {
+	border: 5px solid white;
+	background: #DDDDDD;
+}
+
+.author-border {
+	border-bottom: 3px solid white;
+}
+
+/* -------------- Page Styles ------------------------------------------ */
+.page-title-wide {
+	width: 100%;
+	background-color: #2F2F33;
+	background-image: linear-gradient(to right, #000000, #5D5D60 50%, #000000);
+	color: #F9F9F9;
+}
+
+.page-title-wrap {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* -------------- Author Page Styling ---------------------------------- */
+.author-bio,.category-page,.search-page {
+	border: 5px solid white;
+	background: #DDDDDD;
+}
+
+.author-border {
+	border-bottom: 3px solid white;
+}
+
+/* -------------- Portfolio Page Styling ------------------------------- */
+
+.page-title-wrap h2.portfolio {
+	display: block;
+	font-size: 1.75em;
+	width: 90%;
+	line-height: 1.0em;
+	padding: 1em 0em 1em 0em;
+	margin: 0em;
+	text-align: center;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.portfolio_one_column .left_col img {border: 8px solid white;}
+
+.portfolio_two_column .image_container img {border: 7px solid white;}
+
+.portfolio_three_column .image_container img {border: 6px solid white;}
+
+.portfolio_four_column .image_container img {border: 5px solid white;}
+
+/* -------------- Error Styling ---------------------------------------- */
+.error {	
+	color: red;
+	background-color: white;
+}
+
+/* --------- Contact Page Styling ----------------------------------------*/
+
+#contactmeform input {
+	background-color: #565659;
+	background-color: rgba(86,86,89,0.2);
+}
+
+#contactmeform textarea {
+	background-color: #565659;
+	background-color: rgba(86,86,89,0.2);
+}

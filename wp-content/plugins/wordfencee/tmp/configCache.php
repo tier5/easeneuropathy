@@ -1,0 +1,4 @@
+<?php
+/* Wordfence temporary file security header */
+echo "Nothing to see here!\n"; exit(0);
+?>a:21:{s:6:"apiKey";s:160:"eb9863615b7fbeebc962111e601fc91e341d3b5b20e29f7ac9f55201b948c862ec5e1c1f5203bf9fb4ffc6dcda8415de1969434b1e4bbd2c62b1427b5d753703c989785dcc6323dc4b5c146013838c80";s:9:"howGetIPs";s:0:"";s:11:"whitelisted";s:0:"";s:9:"cacheType";s:0:"";s:25:"ajaxWatcherDisabled_front";s:1:"0";s:25:"ajaxWatcherDisabled_admin";s:1:"0";s:20:"loginSec_lockoutMins";s:3:"240";s:19:"other_hideWPVersion";s:1:"1";s:26:"loginSec_disableAuthorScan";s:1:"1";s:33:"scansEnabled_suspiciousAdminUsers";s:1:"1";s:18:"liveTrafficEnabled";s:1:"1";s:6:"isPaid";s:0:"";s:15:"firewallEnabled";s:1:"1";s:14:"disableCookies";s:1:"0";s:17:"actUpdateInterval";s:0:"";s:7:"debugOn";s:1:"0";s:10:"tourClosed";s:0:"";s:13:"welcomeClosed";s:1:"1";s:24:"dismissAutoPrependNotice";s:1:"1";s:25:"liveTraf_ignorePublishers";s:1:"1";s:11:"other_WFNet";s:1:"1";}
